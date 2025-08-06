@@ -1,0 +1,387 @@
+[05-Aug-2025 05:46:41 UTC] Invalid product slug provided "elementor", does not match bsf_product_slugs
+[05-Aug-2025 05:47:52 UTC] WordPress database error Table 'wp_e_events' already exists for query CREATE TABLE `wp_e_events` (
+			id bigint(20) unsigned auto_increment primary key,
+			event_data text null,
+			created_at datetime not null
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->create_table
+[05-Aug-2025 05:47:52 UTC] WordPress database error Duplicate key name 'created_at_index' for query ALTER TABLE wp_e_events
+    		ADD INDEX `created_at_index` (`created_at`)
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->add_indexes
+[05-Aug-2025 05:47:55 UTC] Invalid product slug provided "wpforms-lite", does not match bsf_product_slugs
+[05-Aug-2025 05:49:47 UTC] webhook
+[05-Aug-2025 05:49:47 UTC] webhook
+[05-Aug-2025 05:49:47 UTC] rewrite
+[05-Aug-2025 05:49:47 UTC] rewrite
+[05-Aug-2025 05:50:19 UTC] Array
+(
+    [wp_latepoint_recurrences] => Created table wp_latepoint_recurrences
+)
+
+[05-Aug-2025 05:50:19 UTC] Array
+(
+    [wp_latepoint_steps] => Created table wp_latepoint_steps
+)
+
+[05-Aug-2025 05:50:19 UTC] Array
+(
+    [wp_latepoint_carts] => Created table wp_latepoint_carts
+)
+
+[05-Aug-2025 05:50:19 UTC] Array
+(
+    [wp_latepoint_cart_items] => Created table wp_latepoint_cart_items
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_orders] => Created table wp_latepoint_orders
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_order_items] => Created table wp_latepoint_order_items
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_order_intents] => Created table wp_latepoint_order_intents
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_order_invoices] => Created table wp_latepoint_order_invoices
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_payment_requests] => Created table wp_latepoint_payment_requests
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_process_jobs] => Created table wp_latepoint_process_jobs
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_sessions] => Created table wp_latepoint_sessions
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_bookings] => Created table wp_latepoint_bookings
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_blocked_periods] => Created table wp_latepoint_blocked_periods
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_cart_meta] => Created table wp_latepoint_cart_meta
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_order_meta] => Created table wp_latepoint_order_meta
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_booking_meta] => Created table wp_latepoint_booking_meta
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_processes] => Created table wp_latepoint_processes
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_service_meta] => Created table wp_latepoint_service_meta
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_customer_meta] => Created table wp_latepoint_customer_meta
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_agent_meta] => Created table wp_latepoint_agent_meta
+)
+
+[05-Aug-2025 05:50:20 UTC] Array
+(
+    [wp_latepoint_bundle_meta] => Created table wp_latepoint_bundle_meta
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_settings] => Created table wp_latepoint_settings
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_locations] => Created table wp_latepoint_locations
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_location_categories] => Created table wp_latepoint_location_categories
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_bundles] => Created table wp_latepoint_bundles
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_bundles_services] => Created table wp_latepoint_bundles_services
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_services] => Created table wp_latepoint_services
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_agents] => Created table wp_latepoint_agents
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_step_settings] => Created table wp_latepoint_step_settings
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_customers] => Created table wp_latepoint_customers
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_service_categories] => Created table wp_latepoint_service_categories
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_custom_prices] => Created table wp_latepoint_custom_prices
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_work_periods] => Created table wp_latepoint_work_periods
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_agents_services] => Created table wp_latepoint_agents_services
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_activities] => Created table wp_latepoint_activities
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_transaction_intents] => Created table wp_latepoint_transaction_intents
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_transactions] => Created table wp_latepoint_transactions
+)
+
+[05-Aug-2025 05:50:21 UTC] Array
+(
+    [wp_latepoint_transaction_refunds] => Created table wp_latepoint_transaction_refunds
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+    [wp_latepoint_steps.use_custom_image] => Changed type of wp_latepoint_steps.use_custom_image from tinyint(1) to boolean
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+    [wp_latepoint_services.is_price_variable] => Changed type of wp_latepoint_services.is_price_variable from tinyint(1) to boolean
+    [wp_latepoint_services.is_deposit_required] => Changed type of wp_latepoint_services.is_deposit_required from tinyint(1) to boolean
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+    [wp_latepoint_agents.custom_hours] => Changed type of wp_latepoint_agents.custom_hours from tinyint(1) to boolean
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+    [wp_latepoint_customers.is_guest] => Changed type of wp_latepoint_customers.is_guest from tinyint(1) to boolean
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+    [wp_latepoint_custom_prices.is_price_variable] => Changed type of wp_latepoint_custom_prices.is_price_variable from tinyint(1) to boolean
+    [wp_latepoint_custom_prices.is_deposit_required] => Changed type of wp_latepoint_custom_prices.is_deposit_required from tinyint(1) to boolean
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+    [wp_latepoint_agents_services.is_custom_hours] => Changed type of wp_latepoint_agents_services.is_custom_hours from tinyint(1) to BOOLEAN
+    [wp_latepoint_agents_services.is_custom_price] => Changed type of wp_latepoint_agents_services.is_custom_price from tinyint(1) to BOOLEAN
+    [wp_latepoint_agents_services.is_custom_duration] => Changed type of wp_latepoint_agents_services.is_custom_duration from tinyint(1) to BOOLEAN
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:22 UTC] Array
+(
+)
+
+[05-Aug-2025 05:50:42 UTC] Invalid product slug provided "wp-live-chat-support", does not match bsf_product_slugs
+[05-Aug-2025 06:05:32 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_optimized_size_keys` successfully executed.
+[05-Aug-2025 06:05:39 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_mime_type` successfully executed.
+[05-Aug-2025 06:06:09 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Core\Components\Migrations->run_migration(): The migration `fix_avif_with_zero_dimensions` successfully executed.
+[05-Aug-2025 06:10:23 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[05-Aug-2025 06:10:44 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[05-Aug-2025 06:10:48 UTC] [Image Optimizer]: info in ImageOptimization\Modules\ConnectManager\Components\Connect->get_connect_status(): Status check error. Reason: User is not connected
+[05-Aug-2025 06:52:18 UTC] Invalid url passed to get_utm_ready_link function
+[05-Aug-2025 06:52:18 UTC] Invalid url passed to get_utm_ready_link function
+[05-Aug-2025 06:52:18 UTC] Invalid url passed to get_utm_ready_link function
+[05-Aug-2025 06:52:18 UTC] Invalid url passed to get_utm_ready_link function
+[05-Aug-2025 06:52:19 UTC] Invalid url passed to get_utm_ready_link function
+[05-Aug-2025 06:52:19 UTC] Invalid url passed to get_utm_ready_link function
+[05-Aug-2025 06:52:20 UTC] Invalid url passed to get_utm_ready_link function
+[05-Aug-2025 06:52:20 UTC] Invalid url passed to get_utm_ready_link function
+[05-Aug-2025 06:52:20 UTC] Invalid url passed to get_utm_ready_link function
+[05-Aug-2025 06:52:20 UTC] Invalid url passed to get_utm_ready_link function
+[05-Aug-2025 06:59:55 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[05-Aug-2025 07:02:23 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[05-Aug-2025 07:18:38 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Optimization\Classes\Optimize_Image->optimize(): Start optimization of 628
+[05-Aug-2025 07:18:59 UTC] [Image Optimizer]: info in ImageOptimization\Modules\Optimization\Classes\Optimize_Image->optimize(): End optimization of 628

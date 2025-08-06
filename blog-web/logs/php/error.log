@@ -1,0 +1,3 @@
+[05-Aug-2025 08:13:31 UTC] Invalid product slug provided "elementor", does not match bsf_product_slugs
+[05-Aug-2025 08:14:50 UTC] PHP Warning:  Undefined array key "uuid" in C:\Users\hp\Local Sites\blog-web\app\public\wp-content\plugins\astra-sites\inc\lib\ai-builder\inc\ajax\plugin.php on line 287
+[05-Aug-2025 08:16:08 UTC] Invalid product slug provided "wpforms-lite", does not match bsf_product_slugs
