@@ -11,6 +11,7 @@
     echo"Hello World";
     ?>
     <?php
+    $h3_color="green";
     $name="John Doe";
     echo "<h1 style='color:blue;'>my name is $name</h1>";
     ?>
@@ -20,6 +21,8 @@
     <h2 style="color:blueviolet">
         my son name is <?php echo $name; ?>
     </h2>
-    <h3 style ></h3>
+    <h3 style="color:green">my daughter name is <?php echo $name; ?></h3>
+    <h3 style="color:purple">my pet name is <?php echo $name; ?></h3>
+    <h3 style="color:teal">my favorite plant name is <?php echo $name; ?></h3>
 </body>
 </html>
